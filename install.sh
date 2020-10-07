@@ -20,8 +20,8 @@ cd /opt/
 
 installRequirements() {
   export DEBIAN_FRONTEND=noninteractive
-  apt-get update
-  apt-get install \
+  sudo apt-get update
+  sudo apt-get install \
     software-properties-common \
     git \
     build-essential \
